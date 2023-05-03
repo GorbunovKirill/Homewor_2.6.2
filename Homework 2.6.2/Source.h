@@ -3,10 +3,10 @@
 class Counter
 {
 private:
-	int num = 1;
+	int num=1;
 
 public:
-	Counter(int num1) { this->num = num1; }
+	Counter(int num1);
 
 	void calc(char cmnd);
 	int get_num();

@@ -1,6 +1,8 @@
 #include "Source.h"
 #include <iostream>
 
+Counter::Counter(int num1) { this->num = num1; }
+
 	void Counter::calc(char cmnd)
 	{
 		this->num;
